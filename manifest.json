@@ -30,10 +30,10 @@
     },
     {
       "name": "openpyxl",
-      "version": "3.1.5",
+      "version": "3.1.2",
       "required": true,
-      "wheel": "openpyxl-3.1.5-py2.py3-none-any.whl",
-      "url": "https://github.com/RootedReady/build_word_search_book/raw/refs/heads/main/packages/openpyxl/openpyxl-3.1.5-py2.py3-none-any.whl"
+      "wheel": "openpyxl-3.1.2-py2.py3-none-any.whl",
+      "url": "https://github.com/RootedReady/build_word_search_book/raw/refs/heads/main/packages/openpyxl/openpyxl-3.1.2-py2.py3-none-any.whl"
     },
     {
       "name": "svglib",
