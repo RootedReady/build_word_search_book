@@ -2,6 +2,7 @@
   "app": "Rooted Ready Word Search Creator",
   "version": "1.0.0",
   "python_version": "3.12",
+  "icon_url": "https://github.com/RootedReady/ebook_formatter/raw/refs/heads/main/assets/app_icon.ico",
   "dependencies": [
     {
       "name": "reportlab",
