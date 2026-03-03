@@ -10,7 +10,7 @@
       "required": true,
       "arch_specific": true,
       "wheel": "reportlab-4.4.4-py3-none-any.whl",
-      "url": "https://github.com/RootedReady/build_word_search_book/raw/refs/heads/main/packages/reportlab/reportlab-4.4.4-py3-none-any.whl",
+      "url": "https://github.com/RootedReady/build_word_search_book/raw/refs/heads/main/packages/reportlab/reportlab-4.4.4-py3-none-any.whl"
     },
     {
       "name": "pillow",
@@ -37,12 +37,54 @@
       "url": "https://github.com/RootedReady/build_word_search_book/raw/refs/heads/main/packages/openpyxl/openpyxl-3.1.2-py2.py3-none-any.whl"
     },
     {
+      "name": "numpy",
+      "version": "2.2.3",
+      "required": true,
+      "arch_specific": true,
+      "wheel_x64": "numpy-2.2.3-cp312-cp312-win_amd64.whl",
+      "wheel_x86": "numpy-2.2.3-cp312-cp312-win32.whl",
+      "url_x64": "https://github.com/RootedReady/build_word_search_book/raw/refs/heads/main/packages/numpy/numpy-2.2.3-cp312-cp312-win_amd64.whl",
+      "url_x86": "https://github.com/RootedReady/build_word_search_book/raw/refs/heads/main/packages/numpy/numpy-2.2.3-cp312-cp312-win32.whl",
+      "extra_dirs": [
+        "numpy.libs"
+      ]
+    },
+    {
       "name": "pandas",
       "version": "3.0.1",
       "required": true,
-      "wheel": "pandas-3.0.1-cp312-cp312-win_amd64.whl",
-      "url": "https://github.com/RootedReady/build_word_search_book/raw/refs/heads/main/packages/pandas/pandas-3.0.1-cp312-cp312-win_amd64.whl"
-    },	
+      "arch_specific": true,
+      "wheel_x64": "pandas-3.0.1-cp312-cp312-win_amd64.whl",
+      "wheel_x86": "pandas-3.0.1-cp312-cp312-win32.whl",
+      "url_x64": "https://github.com/RootedReady/build_word_search_book/raw/refs/heads/main/packages/pandas/pandas-3.0.1-cp312-cp312-win_amd64.whl",
+      "url_x86": "https://github.com/RootedReady/build_word_search_book/raw/refs/heads/main/packages/pandas/pandas-3.0.1-cp312-cp312-win32.whl",
+      "extra_dirs": [
+        "pandas.libs"
+      ]
+    },
+    {
+      "name": "python_dateutil",
+      "version": "2.9.0",
+      "required": true,
+      "folder_name": "dateutil",
+      "wheel": "python_dateutil-2.9.0.post0-py2.py3-none-any.whl",
+      "url": "https://github.com/RootedReady/build_word_search_book/raw/refs/heads/main/packages/python_dateutil/python_dateutil-2.9.0.post0-py2.py3-none-any.whl"
+    },
+    {
+      "name": "six",
+      "version": "1.17.0",
+      "required": true,
+      "is_single_file": true,
+      "wheel": "six-1.17.0-py2.py3-none-any.whl",
+      "url": "https://github.com/RootedReady/build_word_search_book/raw/refs/heads/main/packages/six/six-1.17.0-py2.py3-none-any.whl"
+    },
+    {
+      "name": "tzdata",
+      "version": "2025.1",
+      "required": true,
+      "wheel": "tzdata-2025.1-py2.py3-none-any.whl",
+      "url": "https://github.com/RootedReady/build_word_search_book/raw/refs/heads/main/packages/tzdata/tzdata-2025.1-py2.py3-none-any.whl"
+    },
     {
       "name": "svglib",
       "version": "1.6.0",
@@ -77,7 +119,11 @@
   ],
   "runtime_libs": {
     "description": "GTK/Cairo native libraries for SVG support (optional)",
-    "required_for": ["svglib", "cairosvg", "cairocffi"],
+    "required_for": [
+      "svglib",
+      "cairosvg",
+      "cairocffi"
+    ],
     "optional": true,
     "x64": {
       "base_url": "https://github.com/RootedReady/build_word_search_book/raw/main/runtime/x64/",
