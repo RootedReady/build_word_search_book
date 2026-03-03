@@ -37,6 +37,13 @@
       "url": "https://github.com/RootedReady/build_word_search_book/raw/refs/heads/main/packages/openpyxl/openpyxl-3.1.2-py2.py3-none-any.whl"
     },
     {
+      "name": "pandas",
+      "version": "3.0.1",
+      "required": true,
+      "wheel": "pandas-3.0.1-cp312-cp312-win_amd64.whl",
+      "url": "https://github.com/RootedReady/build_word_search_book/raw/refs/heads/main/packages/pandas/pandas-3.0.1-cp312-cp312-win_amd64.whl"
+    },	
+    {
       "name": "svglib",
       "version": "1.6.0",
       "required": false,
